@@ -5,16 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomeWork2</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <nav>
             <a href="./index.html">WebStudio</a>
             <ul>
@@ -48,7 +48,7 @@
         <section>
             <h1>Effective Solutions for Your Business</h1>
 
-            <button type="button">Order Service</button>
+            <button type="button" class="order-btn">Order Service</button>
         </section>
 
         <section>
@@ -118,47 +118,50 @@
         </section>
 
         <section class="portfolio">
-            <h2>Our Portfolio</h2>
+            <h2 class="portfolio-header">Our Portfolio</h2>
 
-            <ul>
-<li>
-<img src="./images/bankingApp.jpg" alt="bankingApp" width="264" />
-<h3>Banking App</h3>
-<body>App</body>
-</li>
-<li>
-    <img src="./images/cashlessPayment.jpg" alt="Cashless Payment" width="264" />
-    <h3>Cashless Payment</h3>
+            <ul class="portfolio__image">
+                <li class="portfolio__image--1">
+                    <img src="./images/bankingApp.jpg" alt="bankingApp" width="360" height="300" />
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                </li>
 
-    <body>Marketing</body>
-</li>
-<li>
-    <img src="./images/Meditation App.jpg" alt="Meditation App" width="264" />
-    <h3>Meditation App</h3>
+                <li  class="portfolio__image--2">
+                    <img src="./images/cashlessPayment.jpg" alt="Cashless Payment" width="360" height="300" />
+                    <h3>Cashless Payment</h3>
 
-    <body>App</body>
-</li>
-<li>
-    <img src="./images/TaxiService.jpg" alt="Taxi Service" width="264" />
-    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
 
-    <body>Marketing</body>
-</li>
-<li>
-    <img src="./images/ScreenIllustrations.jpg" alt="Screen Illustrations" width="264" />
-    <h3>Screen Illustrations</h3>
+                <li class="portfolio__image--3">
+                    <img src="./images/Meditation App.jpg" alt="Meditation App" width="360" height="300" />
+                    <h3>Meditation App</h3>
 
-    <body>Design</body>
-</li>
-<li>
-    <img src="./images/OnlineCourses.png" alt="Online Courses" width="264" />
-    <h3>Online Courses</h3>
+                    <p>App</p>
+                </li>
 
-    <body>Marketing</body>
-</li>
+                <li class="portfolio__image--4">
+                    <img src="./images/TaxiService.jpg" alt="Taxi Service" width="360" height="300" />
+                    <h3>Taxi Service</h3>
 
+                    <p>Marketing</p>
+                </li>
+
+                <li class="portfolio__image--5">
+                    <img src="./images/ScreenIllustrations.jpg" alt="Screen Illustrations" width="360" height="300" />
+                    <h3>Screen Illustrations</h3>
+
+                    <p>Design</p>
+                </li>
+
+                <li class="portfolio__image--6">
+                    <img src="./images/OnlineCourses.png" alt="Online Courses" width="360" height="300" />
+                    <h3>Online Courses</h3>
+
+                    <p>Marketing</p>
+                </li>
             </ul>
-            
         </section>
     </main>
 
