@@ -2,7 +2,7 @@
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    
+
 }
 
 
@@ -20,6 +20,100 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+/*header section*/
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo-span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.Studio-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.Studio-link:hover,
+.Studio-link:focus {
+    color: #404bbf;
+}
+
+.portfolio-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: #404bbf;
+}
+
+.Contacts-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.Contacts-link:hover,
+.Contacts-link:focus {
+    color: #404bbf;
+}
+
+.header-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+
+.header-email {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-email:hover,
+.header-email:focus {
+    color: #404bbf;
+}
+
+.header-tell {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-tell:hover,
+.header-tell:focus {
+    color: #404bbf;
+}
+
+
 
 
 
@@ -48,13 +142,11 @@ img {
 
 .portfolio-header {
     font-weight: 700;
-        font-size: 36px;
-    
-        /* line-height: 40px; */
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: var(--navy-blue);
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
 }
 
 .portfolio__image {
@@ -66,26 +158,26 @@ img {
     grid-row-gap: 168px;
 }
 
-.portfolio__image--1 {
+.bankin-img {
     grid-area: 1 / 1 / 2 / 5;;
 }
 
-.portfolio__image--2 {
+.Cashless-img {
     grid-area: 1 / 5 / 2 / 9;
 }
 
-.portfolio__image--3 {
+.Meditation-img {
     grid-area: 1 / 9 / 2 / 13;
 }
 
-.portfolio__image--4 {
+.Taxi-img {
     grid-area: 2 / 1 / 3 / 5;;
 }
 
-.portfolio__image--5 {
+.Illustrations-img {
     grid-area: 2 / 5 / 3 / 9;;
 }
 
-.portfolio__image--6 {
+.Courses-img {
     grid-area: 2 / 9 / 3 / 13;
 }
