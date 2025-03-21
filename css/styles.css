@@ -1,9 +1,13 @@
+/* Global styles */
 .body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 
 }
+/* Global styles */
+
+
 
 
 
@@ -20,6 +24,10 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+
+
+
 
 /*header section*/
 
