@@ -50,7 +50,7 @@
     color: #2e2f42;
 }
 
-.Studio-link {
+.studio-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,8 +59,8 @@
 
 }
 
-.Studio-link:hover,
-.Studio-link:focus {
+.studio-link:hover,
+.studio-link:focus {
     color: #404bbf;
 }
 
@@ -77,15 +77,15 @@
     color: #404bbf;
 }
 
-.Contacts-link {
+.contacts-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.Contacts-link:hover,
-.Contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
