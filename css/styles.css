@@ -9,26 +9,6 @@
 
 
 
-
-
-
-
-.order-btn {
-    background-color: var(--navy-blue);
-    color: var(--white);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-
-
-
-
 /*header section*/
 
 .header-logo {
@@ -50,7 +30,7 @@
     color: #2e2f42;
 }
 
-.studio-link {
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,35 +39,11 @@
 
 }
 
-.studio-link:hover,
-.studio-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
-.portfolio-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.portfolio-link:hover,
-.portfolio-link:focus {
-    color: #404bbf;
-}
-
-.contacts-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-}
 
 .header-contacts {
     font-size: 16px;
@@ -97,27 +53,8 @@
     font-style: normal;
 }
 
-.header-email {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-email:hover,
-.header-email:focus {
-    color: #404bbf;
-}
-
-.header-tell {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-tell:hover,
-.header-tell:focus {
+.header-contacts:hover,
+.header-contacts:focus {
     color: #404bbf;
 }
 
